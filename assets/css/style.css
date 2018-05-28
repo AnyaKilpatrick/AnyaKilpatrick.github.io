@@ -1,0 +1,146 @@
+html {
+    position:relative;
+    min-height: 100vh;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+/* *{
+    box-sizing: border-box;
+} */
+body {
+    background:#e4e2e2;
+    color: #777777;
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    margin-bottom: 100px;
+}
+#firstParallax{
+    height:65px;
+}
+/* #parallax2{
+    background:rgba(57, 100, 102, 0.685);
+} */
+#transpNav{
+    background:#173539cb;
+}
+#aboutMe, #techSk, #portf{
+    font-family:'Love Ya Like A Sister', cursive;
+    color:#212121;
+}
+#aboutMeDiv, #aboutSkills, #aboutExperience{
+    margin-top:5px;
+    margin-bottom: 10px;
+    background: #e4e2e2;
+    padding-top:20px;
+    color: #212121;
+    font-size: 20px;
+}
+.aboutMeSpans{
+    font-family:'Love Ya Like A Sister';
+    color:#496d77;
+    font-size:25px;
+}
+.googlefont1 {
+    /* font-family: 'Gloria Hallelujah', cursive; */
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+nav {
+    position: fixed;
+    top:0%;
+}
+.navlinks {
+    font-size: 20px;
+    color: #c1bdbf;
+}
+h4 {
+    color: #c1bdbf;
+}
+.parallax-container {
+    height: 150px;
+}
+li{
+    color:black;
+    font-size:22px;
+}
+h5 {
+    margin-top:30px;
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+/* Article */
+.photo {
+    margin-top: 35px;
+    max-width:350px;
+    border-radius: 10px;
+}
+#photo2 {
+    margin-top: 35px;
+    width:400px;
+    border-radius: 10px;
+}
+/* Sidebar
+
+.icon:hover  {
+    border-radius: 100px;
+  }
+
+aside {
+    max-height: 150px;
+}
+
+.icon {
+    max-width: 70px;
+    max-height:70px;
+} */
+
+/* Footer */
+.myFooter {
+    position: absolute;
+    bottom: 0%;
+    background: #777777;
+    color: white;
+    border-top: 8px solid #4aaaa5;
+}
+
+/* Form  */
+
+.myButton:hover {
+    border-radius: 100px;
+}
+
+.myButton {
+    background: #4aaaa5;
+    color: #ffffff;
+    border-radius: 0;
+    border: none;
+}
+
+/* Media Queries for Responsive Photo */
+
+@media screen and (max-width: 992px) {
+   .photo {
+       width: 100%;
+   }
+   
+}
+@media screen and (max-width: 768px) {
+   .photo {
+       width: 100vw;
+    }
+    .middleNav {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+}
+@media screen and (max-width: 576px) {
+   .photo {
+       width: 100%;
+   }
+   .middleNav {
+       padding-left: 30px;
+       padding-right: 30px;
+
+   }
+  
+}
+
