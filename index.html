@@ -10,10 +10,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Love+Ya+Like+A+Sister" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Portfolio</title>
 </head>
 <body>
-        <div class="parallax-container" id="firstParallax">
+        <div class="parallax-container z-depth-5" id="firstParallax">
                 <div class="parallax"><img src="assets/images/parallax1.jpg"></div>
         </div>
     <!-- Header -->
@@ -21,9 +23,9 @@
         <div class="nav-wrapper googlefont1">
           <a class="left"><h4>Anya Kilpatrick</h4></a>
           <ul id="nav-mobile" class="right">
-            <li><a class="navlinks" href="index.html">About</a></li>
-            <li><a class="navlinks" href="portfolio.html">Portfolio</a></li>
-            <li><a class="navlinks" href="contact.html">Contact</a></li>
+            <li><a class="navlinks" href="#aboutMeDiv">About</a></li>
+            <li><a class="navlinks" href="#aboutExperience">Portfolio</a></li>
+            <li><a class="navlinks" href="#aboutContacts">Contact</a></li>
           </ul>
         </div>
     </nav>
@@ -32,7 +34,7 @@
     <!-- <div class="parallax-container">
         <div class="parallax"><img src="assets/images/parallax-back.jpg"></div>
     </div> -->
-    <div class="addMargin" id="aboutMeDiv">
+    <div class="addMargin section scrollspy" id="aboutMeDiv">
         <div class="row">
             <article class="col s12">
                 <!-- Creating a container inside of this column so the top row border will be not full width -->
@@ -68,7 +70,7 @@
             </h5>
         </div>
     </div> -->
-    <div class="parallax-container">
+    <div class="parallax-container z-depth-5">
         <div class="parallax">
             <img src="assets/images/parallax1.jpg">
         </div>
@@ -102,7 +104,7 @@
                 </div>
             </div>
             <div class="col s3 left-align">
-                <img id="photo2" src="assets/images/anyaphoto2.jpg">
+                <img class="z-depth-5" id="photo2" src="assets/images/anyaphoto2.jpg">
             </div>
         </div>
     </div>
@@ -111,39 +113,77 @@
             <img src="assets/images/parallax1.jpg">
         </div>
     </div>
-    <div id="aboutExperience">
+    <div id="aboutExperience" class="section scrollspy">
         <div class="row">
-            <div class="col s4">
+            <div class="col s3">
                 <h3 id="portf">Portfolio</h3>
-                <img class="photo" src="assets/images/success2.png">
+                <img class="photo" src="assets/images/success3.png">
             </div>
-            <div class="col s6">
+            <div class="col offset-s1 s3">
                 <div class="card">
-                    <div class="card-tabs">
-                        <ul class="tabs tabs-fixed-width">
-                        <li class="tab"><a href="#test4">SpeakIT</a></li>
-                        <li class="tab"><a class="active" href="#test5">Test 2</a></li>
-                        <li class="tab"><a href="#test6">Test 3</a></li>
-                        </ul>
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="z-depth-1 activator" src="assets/images/portf12.jpg">
                     </div>
-                    <div class="card-content grey lighten-4">
-                        <div id="test4">
-                            <p><span class="aboutMeSpans">SpeakIT</span> - social web app, that helps users, who are studying or willing to study a foreign language, connect and practice with other users that are fluent in it.</p>
-                            <p><span class="aboutMeSpans">Languages/Tools</span>: Node.js, Express, JavaScript, jQuery, MySQL, Sequelize, Handlebars, Passport, Socket.io</p>
-                            <p><span class="aboutMeSpans">GitHub</span>: <a href="https://github.com/AnyaKilpatrick/SpeakIT" target="_blank">https://github.com/AnyaKilpatrick/SpeakIT</a></p> 
-                            <p><span class="aboutMeSpans">Deployed app</span>: <a href="https://speak-it.herokuapp.com/" target="_blank">https://speak-it.herokuapp.com</a></p> 
-                        </div>
-                        <div id="test5">Test 2</div>
-                        <div id="test6">Test 3</div>
+                    <div class="card-content">
+                        <span class="card-title activator">SpeakIT<i class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">SpeakIT<i class="material-icons right">close</i></span>
+                        <p>May 2018</p>
+                        <p>Back End Developer</p>
+                        <p>
+                            SpeakIT - social web app, that helps users, who are studying or willing to study a foreign language, connect and practice with other users that are fluent in it.
+                        </p>
+                        <p>
+                            Languages/Tools: Node.js, Express, JavaScript, jQuery, MySQL, Sequelize, Handlebars, Passport, Socket.io
+                        </p>
+                            Deployed app: <a href="https://speak-it.herokuapp.com/">here</a>
+                        <p>
+                            <span class="right">
+                                <a class="btn-floating btn-large waves-effect waves-light cyan darken-4">
+                                    <i class="fab fa-github fa-7x"></i>
+                                </a>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col offset-s1 s3">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="z-depth-1 activator" src="assets/images/bamazon1.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator">Bamazon<i class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Bamazon<i class="material-icons right">close</i></span>
+                        <p>Apr 2018</p>
+                        <p>Back End Developer</p>
+                        <p>
+                            Amazon-like storefront. The app takes in orders from customers and depletes stock from the store's inventory. It can track product sales across store's departments and then provide a summary of the highest-grossing departments in the store.
+                        </p>
+                        <p>
+                            Languages/Tools: Node.js, npm packages (inquire, mysql, cli-table), MySQL database
+                        </p>
+                        <p>
+                            <span class="right">
+                                <a class="btn-floating btn-large waves-effect waves-light cyan darken-4">
+                                    <i class="fab fa-github fa-7x"></i>
+                                </a>
+                            </span>
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="parallax-container">
-        <div class="parallax"><img src="assets/images/parallax-back.jpg"></div>
+    <div class="parallax-container z-depth-5">
+        <div class="parallax">
+            <img src="assets/images/parallax1.jpg">
+        </div>
     </div>
-    <div class="grey lighten-1 z-depth-5">
+    <div class="grey lighten-1">
         <div class="row">
             djdjdj djjee  ejej
         </div>

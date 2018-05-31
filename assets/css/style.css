@@ -36,6 +36,16 @@ body {
     color: #212121;
     font-size: 20px;
 }
+
+#portf {
+    color: rgb(19, 18, 18);
+    font-size: 60px;
+}
+.card-title {
+    color:#006064;
+    font-family:'Love Ya Like A Sister', cursive;
+    font-size:36px;
+}
 .aboutMeSpans{
     font-family:'Love Ya Like A Sister';
     color:#496d77;
@@ -78,6 +88,17 @@ h5 {
     width:400px;
     border-radius: 10px;
 }
+
+.myCard {
+    background:#7f989d26;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+.card-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
 /* Sidebar
 
 .icon:hover  {
@@ -92,6 +113,7 @@ aside {
     max-width: 70px;
     max-height:70px;
 } */
+
 
 /* Footer */
 .myFooter {
