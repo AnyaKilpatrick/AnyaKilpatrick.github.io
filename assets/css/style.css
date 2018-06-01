@@ -58,7 +58,7 @@ body {
 nav {
     position: fixed;
     top:0%;
-    z-index:+2;
+    z-index:+4;
 }
 .navlinks {
     font-size: 20px;
@@ -84,17 +84,21 @@ h5 {
     max-width:350px;
     border-radius: 10px;
 }
+#expBox{
+    box-sizing: border-box;
+}
+#expGirl{
+    max-width:100%;
+}
+
 #photo2 {
     margin-top: 35px;
     width:400px;
     border-radius: 10px;
 }
 
-.myCard {
-    background:#7f989d26;
-    padding: 20px 20px 20px 20px;
-    border-radius: 20px;
-    box-sizing: border-box;
+.card{
+    margin-bottom:30px;
 }
 .card-image img {
     max-width: 100%;
