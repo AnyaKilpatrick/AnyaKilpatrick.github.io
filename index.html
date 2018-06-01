@@ -22,7 +22,7 @@
     <nav class="z-depth-5" id="transpNav">
         <div class="nav-wrapper googlefont1">
           <a class="left"><h4>Anya Kilpatrick</h4></a>
-          <ul id="nav-mobile" class="right">
+          <ul id="nav-mobile" class="right hide-on-small-only">
             <li><a class="navlinks" href="#aboutMeDiv">About</a></li>
             <li><a class="navlinks" href="#aboutExperience">Portfolio</a></li>
             <li><a class="navlinks" href="#aboutContacts">Contact</a></li>
@@ -34,14 +34,14 @@
     <div class="addMargin section scrollspy" id="aboutMeDiv">
         <div class="row">
             <article class="col s12">
-                <div class="col s3 center-align">
-                    <img class="photo z-depth-5" src="assets/images/anyaphoto1.jpg" alt="Hanna K.">
+                <div class="col offset-s3 s6 offset-m1 m10 l4 xl3 center-align">
+                    <img class="photo responsive-img z-depth-5" src="assets/images/anyaphoto1.jpg" alt="Hanna K.">
                 </div>
-                <div class="col s9">
-                    <div class="row center">
-                        <h3 class="col 12" id="aboutMe">About Anya</h3>
+                <div class="col offset-s1 s10 offset-m1 m10 l8 xl9">
+                    <div class="row center-align">
+                        <h3 class="col s12" id="aboutMe">About Anya</h3>
                     </div>
-                    <div class="col s12">
+                    <div id="justifyText" class="col s12">
                         <p>
                         Hanna Kilpatrick, known by her Ukrainian name Anya, is a <span class="aboutMeSpans">Full Stack Web Developer</span>, with experience of working as a Freelance Author and Director’s Assistant in Ukraine and as a Starbucks Team Lead in the United States. 
                         </p>
@@ -62,10 +62,10 @@
     <!-- About Technical Skills -->
     <div id="aboutSkills">
         <div class="row">
-            <div class="col offset-s1 s6">
+            <div class="col s12 m8 offset-l1 l6 offset-xl1 xl6">
                 <h3 id="techSk">Anya's Technical Skills:</h3>
                 <div class="row">
-                    <div class="col s4">
+                    <div class="col s6 m6 l5 xl4">
                         <table class="striped">
                             <tbody>           
                                 <tr><td>HTML5, CSS, JavaScript</td></tr>
@@ -76,7 +76,7 @@
                             </tbody>
                         </table>
                     </div>
-                    <div class="col s4">
+                    <div class="col s6 m6 l5 xl4">
                         <table class="striped">
                             <tbody>           
                                 <tr><td>Express.js</td></tr>
@@ -88,8 +88,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col s3 left-align">
-                <img class="z-depth-5" id="photo2" src="assets/images/anyaphoto2.jpg">
+            <div class="col offset-s1 s10 m4 l3 xl3 left-align">
+                <img class="z-depth-5 responsive-img" id="photo2" src="assets/images/anyaphoto2.jpg">
             </div>
         </div>
     </div>
@@ -103,12 +103,12 @@
     <div id="aboutExperience" class="section scrollspy">
         <div class="row">
             <!-- div with img -->
-            <div class="col s3" id="expBox">
+            <div class="col offset-s3 s6 offset-m1 m4 l3 xl3" id="expBox">
                 <h3 id="portf">Portfolio</h3>
-                <img id="expGirl" src="assets/images/success3.png">
+                <img class="responsive-img" id="expGirl" src="assets/images/success3.png">
             </div>
             <!-- SpeakIT card -->
-            <div class="col offset-s1 s3">
+            <div class="col offset-s2 s8 offset-m2 m5 l4 offset-xl1 xl3">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="z-depth-1 activator" src="assets/images/portf12.jpg">
@@ -138,7 +138,7 @@
                 </div>
             </div>
             <!-- Bamazon card -->
-            <div class="col offset-s1 s3">
+            <div class="col offset-s2 s8 offset-m1 m5 l4 offset-xl1 xl3">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="z-depth-1 activator" src="assets/images/bamazon1.jpg">
@@ -170,7 +170,7 @@
                 </div>
             </div>
             <!-- Disney Trivia card -->
-            <div class="col s3">
+            <div class="col offset-s2 s8 offset-m1  m5 l4 xl3">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="z-depth-1 activator" src="assets/images/portf3.jpg">
@@ -199,7 +199,7 @@
                 </div>
             </div>
             <!-- Hangman card -->
-            <div class="col offset-s1 s3">
+            <div class="col offset-s2 s8 offset-m1 m5 l4 offset-xl1 xl3">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="z-depth-1 activator" src="assets/images/portf1.jpg">
@@ -228,8 +228,8 @@
                     </div>
                 </div>
             </div>
-            <!-- div with img -->
-            <div class="col offset-s1 s3" id="expBox">
+            <!-- div with computer img -->
+            <div class="col hide-on-small-only m5 l4 offset-xl1 xl3" id="expBox">
                 <img id="expGirl" src="assets/images/comp.png">
             </div>
         </div>
@@ -246,31 +246,7 @@
             <h3 class="col s12" id="connect">Connect With Anya</h3>
         </div>
         <div class="row">
-            <div class="col offset-s2 s2">
-                <div class="row">
-                    <div class="col s12">
-                        <img id="emailImg" class="responsive-img" src="assets/images/email.png" alt="email">
-                    </div>
-                    <div class="col s12">
-                        <p class="connectP">
-                            hannakilpatrick@gmail.com
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s2">
-                <div class="row">
-                    <div class="col s12">
-                        <img id="phoneImg" class="responsive-img" src="assets/images/phone.png" alt="phone">
-                    </div>
-                    <div class="col s12">
-                        <p class="connectP center">
-                            (804) 972-1265
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s2">
+            <div class="col offset-s2 s3 m2 offset-l2 l2 offset-xl2 xl2">
                 <div class="row">
                     <div class="col s12">
                         <img class="responsive-img" src="assets/images/github4.png" alt="github">
@@ -284,7 +260,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col s2">
+            <div class="col offset-s1 s3 m2 l2 xl2">
                 <div class="row">
                     <div class="col s12">
                         <img id="linkedinImg" class="responsive-img" src="assets/images/linkedin.png" alt="linkedin">
@@ -294,6 +270,30 @@
                             <a class="connectP" href="https://www.linkedin.com/in/hanna-kilpatrick-5a6b7914b/" target="_blank">
                                 LinkedIn
                             </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m2 l2 xl2">
+                <div class="row">
+                    <div class="col s4 m12 l12 xl12">
+                        <img id="phoneImg" class="responsive-img" src="assets/images/phone.png" alt="phone">
+                    </div>
+                    <div class="col s6 m12 l12 xl12">
+                        <p id="phoneNum" class="connectP center">
+                            (804) 972-1265
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m3 l3 xl3">
+                <div class="row">
+                    <div class="col s4 m8 l8 xl8 center">
+                        <img id="emailImg" class="responsive-img" src="assets/images/email.png" alt="email">
+                    </div>
+                    <div class="col s4 m7 l7 xl7 center">
+                        <p id="emailP" class="connectP">
+                            hannakilpatrick@gmail.com
                         </p>
                     </div>
                 </div>
