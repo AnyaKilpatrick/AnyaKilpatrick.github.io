@@ -76,7 +76,7 @@ h4 {
     color: #c1bdbf;
 }
 .parallax-container {
-    height: 150px;
+    height: 170px;
 }
 li{
     color:black;
@@ -121,6 +121,14 @@ h5, h3 {
     max-width: 100%;
     border-radius: 10px;
 }
+
+#footer{
+    background:#234d53cb;
+    padding-top:20px;;
+    position:absolute;
+    bottom:0px;
+    color:rgba(255, 255, 255, 0.781);
+}
 /* Sidebar
 
 .icon:hover  {
@@ -137,16 +145,7 @@ aside {
 } */
 
 
-/* Footer */
-.myFooter {
-    position: absolute;
-    bottom: 0%;
-    background: #777777;
-    color: white;
-    border-top: 8px solid #4aaaa5;
-}
 
-/* Form  */
 
 .myButton:hover {
     border-radius: 100px;
