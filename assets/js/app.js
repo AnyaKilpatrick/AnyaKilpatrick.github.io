@@ -4,7 +4,6 @@ $(document).ready(function(){
 // $(document).ready(function(){
 //     $('.carousel').carousel();
 // });
-$('.carousel.carousel-slider').carousel({
-    fullWidth: true,
-    indicators: true
-});
+$(document).ready(function(){
+    $('.carousel').carousel();
+  });
