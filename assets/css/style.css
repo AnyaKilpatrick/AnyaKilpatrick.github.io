@@ -63,6 +63,9 @@ h4 {
     font-size: 20px;
 }
 /* ==============About Anya section===============*/
+#justifyText{
+    text-align: justify;
+}
 .aboutMeSpans{
     font-family:'Love Ya Like A Sister';
     color:#496d77;
@@ -91,7 +94,7 @@ h4 {
 }
 /* img of girl */
 #expGirl{
-    max-width:100%;
+    max-width:80%;
 }
 /* ==========Connect with Anya section===========*/
 #emailImg, #phoneImg, #linkedinImg{
@@ -106,6 +109,7 @@ h4 {
     font-size:20px;
     font-family: 'Love Ya Like A Sister', cursive;
 }
+
 
 /* =========Photos==========*/
 
@@ -130,32 +134,46 @@ h4 {
     color:rgba(255, 255, 255, 0.781);
 }
 
-/* Media Queries for Responsive Photo */
+/* Media Queries */
 
-@media screen and (max-width: 992px) {
-   .photo {
-       width: 100%;
+@media screen and (max-width: 600px) {
+
+   .card-reveal {
+       font-size:15px;
+   }
+   #phoneNum{
+       margin-top:70px;
+   }
+   #emailP {
+       margin-top:70px;
    }
    
 }
-@media screen and (max-width: 768px) {
-   .photo {
-       width: 100vw;
+
+@media screen and (max-width: 415px) {
+    #phoneNum{
+        margin-top:30px;
     }
-    .middleNav {
-        padding-left: 35px;
-        padding-right: 35px;
+    #emailP {
+        margin-top:30px;
+        font-size:15px;
+    }
+    #portf{
+        font-size:45px;
+    }
+    #techSk{
+        font-size:25px;
+    }
+    #justifyText{
+        font-size:16px;
+    }
+    .aboutMeSpans, td{
+        font-size:20px;
+    }
+} 
+
+@media screen and (max-width: 330px){
+    #emailP{
+        font-size:12px;
     }
 }
-@media screen and (max-width: 576px) {
-   .photo {
-       width: 100%;
-   }
-   .middleNav {
-       padding-left: 30px;
-       padding-right: 30px;
-
-   }
-  
-}
-
