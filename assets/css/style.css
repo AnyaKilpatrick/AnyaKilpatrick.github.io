@@ -10,11 +10,19 @@ html {
 body {
     background:#e4e2e2;
     color: #777777;
+    margin-bottom:70px;
 }
 /* =======Parallax======== */
 
 .parallax-container {
-    height: 170px;
+    height: 300px;
+}
+#parallaxText{
+    margin-top:20px;
+    border:4px solid #dbdbdb98;
+    border-radius:20px;
+    position:relative;
+    left:415px;
 }
 /*=============== Header ===============*/
 #firstParallax{
@@ -71,6 +79,10 @@ h4 {
     color:#496d77;
     font-size:25px;
 }
+#aboutSkills{
+    padding-top:20px;
+    padding-bottom:20px;
+}
 
 /* ==================Portfolio section============== */
 #portf {
@@ -97,9 +109,10 @@ h4 {
     max-width:80%;
 }
 /* ==========Connect with Anya section===========*/
-#emailImg, #phoneImg, #linkedinImg{
-    opacity:0.5;
+#emailImg, #linkedinImg{
+    opacity:0.7;
 }
+
 #connect {
     color:black;
 }
@@ -109,7 +122,15 @@ h4 {
     font-size:20px;
     font-family: 'Love Ya Like A Sister', cursive;
 }
-
+#lastParallaxContainer{
+    box-sizing: border-box;
+    height:600px;
+}
+#aboutContacts{
+    margin-top:0px;
+    height: 100%;
+    background:#b9b9b99f;
+}
 
 /* =========Photos==========*/
 
@@ -127,6 +148,7 @@ h4 {
 /* =======Footer========= */
 
 #footer{
+    /* margin-top:100px; */
     background:#234d53cb;
     padding-top:20px;;
     position:absolute;
@@ -147,9 +169,13 @@ h4 {
    #emailP {
        margin-top:70px;
    }
-   
 }
 
+@media screen and (max-width:540px){
+    #lastParallaxContainer{
+        height:800px;
+    }
+}
 @media screen and (max-width: 415px) {
     #phoneNum{
         margin-top:30px;
